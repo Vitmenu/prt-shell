@@ -37,7 +37,9 @@ Exit Code 255: Exit status out of range - Exit status specified was out of the a
 -n: Show numerical addresses instead of trying to determine symbolic host, port, or user names
 
 *Exmaple.1*
+
 `ss -tuln`
 
 *Exmaple.2: piped into grep*
+
 `ss -tuln | grep 3000`
